@@ -1,20 +1,17 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    font-family: 'Satisfy', cursive;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden
 }
 
 .grid-container1 header{
     grid-area: header;
 }
-
-.puntadeldiablo{
-    background-image: url(/imagenes/PuntaDelDiablo5.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 
 .paginas{
     margin: 20px 30px 800px;
@@ -24,33 +21,17 @@ body{
 }
 
 .inicio{
-    background-image: url(/imagenes/Puntadeldiablo.png);
-    font-family: 'Satisfy', cursive;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(../imagenes/Puntadeldiablo.png);
 }
 
 .cabanas2{
-    background-image: url(/imagenes/CabañasPunta2.png);
-    font-family: 'Satisfy', cursive;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(../imagenes/CabañasPunta2.png);
 }
-
-
 
 .puntadeldiablo{
     grid-area: hero;
-    background-image: url(/imagenes/PuntaDelDiablo5.jpg) ;
+    background-image: url(../imagenes/PuntaDelDiablo5.jpg) ;
     font-family: 'Satisfy', cursive;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center ;
-    background-repeat: no-repeat;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -59,13 +40,8 @@ body{
 }
 
 .contacto{
-    background-image: url(/imagenes/PuntaDelDiablo6.png);
+    background-image: url(../imagenes/PuntaDelDiablo6.png);
     font-family: 'Satisfy', cursive;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
 
 }
 
@@ -189,7 +165,7 @@ footer{
 }
 
 .nosotros{
-    background-image: url(/imagenes/PuntaDelDiablo9.png);
+    background-image: url(../imagenes/PuntaDelDiablo9.png);
     font-family: 'Satisfy', cursive;
     background-size: cover;
     background-attachment: fixed;
@@ -202,6 +178,9 @@ footer{
     align-items: center;
 }
 
+.hero-contacto{
+    margin-top: 100px;
+}
 
 .titulo2{
     font-family:'Satisfy', cursive;
