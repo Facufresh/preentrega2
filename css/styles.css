@@ -53,11 +53,50 @@ h2{
     font-family:'Twinkle Star', cursive;
     font-weight: 600;
     font-size: 35px;
+    color: black;
 }
 
 .cabanas2{
     background-image: url(../images/CabañasPunta2.png);
 }
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Ajusta el tamaño máximo según tus necesidades */
+    margin: 10px;
+  }
+
+.servicios{
+    margin-left: 10%;
+}
+
+.servicios ul{
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+.nuestrascabanas{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.subtexto{
+
+}
+
 
 .puntadeldiablo{
     grid-area: hero;
@@ -93,18 +132,6 @@ footer{
 .video{
     padding-top: 50px;
     margin-left: 500px; 
-}
-
-.titulo{
-    font-family: 'Twinkle Star', cursive;
-    font-weight: 600;
-    font-size: 50px;
-    color: rgb(187, 9, 45);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
-    
 }
 
 h1{
