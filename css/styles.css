@@ -1,12 +1,14 @@
 body{
-    font-family: sans-serif;
     margin: 0;
-    font-family: 'Satisfy', cursive;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden
+}
+
+header{
+    font-family:'Montserrat', sans-serif;
 }
 
 .grid-container1 header{
@@ -21,7 +23,36 @@ body{
 }
 
 .inicio{
-    background-image: url(../images/Puntadeldiablo.png);
+    background-image: url(../images/Pruebafondo3.jpg);
+}
+
+.video-youtube{
+    border: 3px solid rgb(126, 3, 27);
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+@media (min-width: 576px) {
+    .video-container {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+.video-container{
+    display: flex;
+    align-items: center;
+}
+
+.pagina1{
+    margin-top: 15%;
+}
+
+h2{
+    font-family:'Twinkle Star', cursive;
+    font-weight: 600;
+    font-size: 35px;
 }
 
 .cabanas2{
@@ -46,26 +77,17 @@ body{
 }
 
 .texto1{
-    font-family:'Monasterry', cursive;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
     font-weight: 600;
-    font-size: 25px;
-    width: 300px;
-    margin-left: 800px;
-    margin-top: 80px;
+    font-size: 20px;
+    
 }
 
-.titulo1{
-    font-family:'Satisfy', cursive;
-    font-weight: 600;
-    color: crimson;
-    margin-top: 200px;
-    margin-left: 750px;
-     
-} 
-
 footer{
-     margin-top: 120px;
+    font-family:'Montserrat', sans-serif;
+    margin-top: 120px;
+     
     
 }
 .video{
@@ -74,15 +96,27 @@ footer{
 }
 
 .titulo{
-    font-family:'Satisfy', cursive;
+    font-family: 'Twinkle Star', cursive;
     font-weight: 600;
-    font-size: 30px;
-    color: crimson;
+    font-size: 50px;
+    color: rgb(187, 9, 45);
     display: flex;
     align-items: center;
-    margin-top: 200px;
-    margin-left: 800px;  
+    flex-direction: column;
+    margin-top: 150px;
     
+}
+
+h1{
+    font-family: 'Twinkle Star', cursive;
+    font-weight: 600;
+    font-size: 47px;
+    color: rgb(193, 10, 47);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px!important
+
 }
 
 .cabanas{
