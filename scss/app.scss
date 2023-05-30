@@ -1,0 +1,13 @@
+//layout
+@import './layout/shared.scss';
+
+//basics
+@import './basic.scss/typography.scss';
+@import './basic.scss/colors.scss';
+
+//pages
+@import './pages/index.scss';
+@import './pages/cabanas.scss';
+@import './pages/nosotros.scss';
+@import './pages/puntadeldiablo.scss';
+@import './pages/contacto.scss';

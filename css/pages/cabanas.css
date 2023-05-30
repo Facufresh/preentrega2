@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.cabanas2 {
+  background-image: url(../images/CabañasPunta2.png);
+}
+.cabanas2 .nuestrascabanas {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+}
+.cabanas2 .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cabanas2 .galeria img {
+  max-width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.servicios {
+  margin-left: 10%;
+}
+.servicios ul {
+  font-size: 20px;
+  color: antiquewhite;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=cabanas.css.map */

@@ -1,0 +1,29 @@
+.puntadeldiablo{
+    grid-area: hero;
+    background-image: url(../images/PuntaDelDiablo5.jpg) ;
+    font-family: 'Satisfy', cursive;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .texto4{
+        font-family:'Monasterry', cursive;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 60px;
+        .texto5{
+            font-family:'Monasterry', cursive;
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 40px;
+            .texto6{
+                font-family:'Monasterry', cursive;
+                font-weight: 500;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+        
+    }
+    
+}

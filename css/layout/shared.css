@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  overflow-x: hidden;
+}
+body header {
+  font-family: "Montserrat", sans-serif;
+}
+body header .grid-container1 header {
+  grid-area: header;
+}
+body header .grid-container1 header .navbar-brand {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  margin-left: 30px;
+}
+body h1 {
+  font-family: "Twinkle Star", cursive;
+  font-weight: 600;
+  font-size: 47px;
+  color: rgb(193, 10, 47);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px !important;
+}
+body footer {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 120px;
+}
+body footer a:hover {
+  color: rgb(221, 5, 5) !important;
+}
+
+h2 {
+  font-family: "Twinkle Star", cursive;
+  font-weight: 600;
+  font-size: 35px;
+  color: black;
+}
+
+a:hover {
+  transform: translate(4px);
+  color: red;
+}
+
+/*# sourceMappingURL=shared.css.map */

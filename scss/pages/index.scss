@@ -1,0 +1,30 @@
+.inicio{
+    background-image: url(../images/Pruebafondo3.jpg);
+}
+.pagina1{
+    margin-top: 15%;
+    .texto1{
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-weight: 600;
+        font-size: 20px;
+    }    
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        
+        iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          max-width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+
+
