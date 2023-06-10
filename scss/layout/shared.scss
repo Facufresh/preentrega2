@@ -32,7 +32,7 @@ body {
     footer {
         font-family: 'Montserrat', sans-serif;
         margin-top: 120px;
-        a:hover{
+        &:hover{
             color: rgb(221, 5, 5) !important ;
         }
     }
